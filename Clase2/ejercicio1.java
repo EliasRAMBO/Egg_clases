@@ -10,10 +10,13 @@ package Clase2;
  * @author elias
  */
 public class ejercicio1 {
-    String uno;
-    int dos;
-    short tres;
-    char cuatro;
-    boolean cinco;
-    double seis;
+    public static void main(String[] args) {
+        String uno;
+        int dos;
+        short tres;
+        char cuatro;
+        boolean cinco;
+        double seis;
+    } 
 }
+
