@@ -1,4 +1,4 @@
-package Clase2;
+package Clase4_5_6;
 
 
 import java.util.Scanner;
@@ -13,21 +13,25 @@ import java.util.Scanner;
  *
  * @author elias
  */
-public class ejerciciotp3 {
+public class ejercicioclase3 {
 
     /**
      * @param args the command line arguments
-     * Escribir un programa que pida una frase y la muestre toda en mayúsculas y después toda en minúsculas. 
+     * Ejercicio 8
+Escriba un programa que valide si una nota está entre 0 y 10, 
+* sino está entre 0 y 10 la nota se pedirá de nuevo hasta que la nota sea correcta.
+
      */
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner leer = new Scanner(System.in);
-        System.out.println("Ingrese frase");
-        String frase=leer.next();
-        frase=frase.toUpperCase();
-        System.out.println("Frase en mayusc "+frase);
-        frase=frase.toLowerCase();
-        System.out.println("Frase en minusc "+frase);
+        int nota;
+        System.out.println("Ingrese nota :");
+        nota=leer.nextInt();
+        while(nota<0||nota>10){
+            System.out.println("Ingrese nota :");
+            nota=leer.nextInt();
+        }
     }
     
 }

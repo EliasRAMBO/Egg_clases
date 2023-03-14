@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Clase2;
+package Clase2_3;
+
 
 import java.util.Scanner;
 
@@ -11,18 +12,16 @@ import java.util.Scanner;
  *
  * @author elias
  */
-public class ejerciciotp2 {
+public class video {
 
     /**
-     * Escribir un programa que pida tu nombre, lo guarde en una variable y lo muestre por pantalla.
-     * @param args
+     * @param args the command line arguments
      */
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         String nombre;
-        System.out.println("Escriba su nombre");
-        nombre= leer.next();
-        System.out.println("Su nombre es "+nombre);
-    }
-    
+        System.out.println("Ingrese nombre:");
+        nombre=leer.next();
+        System.out.println("Hola soy "+nombre+" y estoy en java");
+    }  
 }
