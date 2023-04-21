@@ -7,7 +7,8 @@ package Clase25_32.servicios;
 
 import Clase25_32.entidades.Cadena;
 import java.util.Arrays;
-import java.util.Scanner;
+
+
 
 /**
  *Crear una clase CadenaServicio en el paquete servicios que implemente los siguientes métodos:
